@@ -68,7 +68,7 @@
 ## Tech Stack
 - Python 3.x
 - FastAPI
-- Jinja2
+- Jinja2 (FastAPIインストール時に自動でインストール)
 - python-multipart
 
 ## Requirements
