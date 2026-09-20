@@ -103,12 +103,25 @@
           filter: brightness(1.08);
       }
       
-      /* Check : Cyan */
+
+      /* Check : purple */
+      .gbtn.select{
+          color: white;
+          background: linear-gradient(to bottom, #E6D5FF, #6600FF);
+      }
+
+      /* Check : Blue */
       .gbtn.check{
           color: white;
-          background: linear-gradient(to bottom, #CCFFFF, #00ABD6);
+          background: linear-gradient(to bottom, #66FFFF, #0055CC);
+        "start"   : ["66","FF","FF", "00","55","CC"],       # Blue
       }
       
+      /* Check : Magenta */
+      .gbtn.paste{
+          color: white;
+          background: linear-gradient(to bottom, #FFCCFF, #FF66CC);
+      }
       /* Exit : Black */
       .gbtn.exit{
           color: white;
@@ -116,8 +129,8 @@
       }
       
       /* Other : Gray */
-      .gbtn.sub{
-          color: black;
+      .gbtn.clear{
+          color: white;
           background: linear-gradient(to bottom, #CCCCCC, #5F5F5F);
       }
 
@@ -182,7 +195,7 @@
         <div class="row">
           <div class="label">Select file:</div>
             <input id="file" type="file" name="file" required>
-		    <button class="gbtn sub" type="button" id="btnSelect">Select</button>
+		    <button class="gbtn select" type="button" id="btnSelect">Select</button>
           </div>
           <div class="small">ここにファイルをドラッグ＆ドロップしてもOKです。</div>
           <div class="row small">
@@ -204,8 +217,8 @@
       <div class="row" style="margin-top: 14px;">
           <div class="label">Hash Expectation:</div>
           <input id="expected" type="text" name="expected" placeholder="（任意）期待値のハッシュを貼り付け">
-          <button class="gbtn sub" type="button" id="btnPaste">Paste</button>
-		  <button class="gbtn sub" type="button" id="btnClear">Clear</button>
+          <button class="gbtn paste" type="button" id="btnPaste">Paste</button>
+		  <button class="gbtn clear" type="button" id="btnClear">Clear</button>
         </div>
 
       <div class="row" style="margin-top: 14px;">

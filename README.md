@@ -53,9 +53,8 @@
 >|:--|:--|:--:|  
 >|Check subject |Hash生成対象ファイル|In|  
 >|Hash Expectation |Hash期待値|In|  
->|Generated Hash |生成Hash Key|Out|  
->|Messages and tutorials |処理メッセージ及び操作方法|Out|  
-### Buttons and Checkboxes
+>|Messages and tutorials |Hash値 及び メッセージ / 操作方法|Out|  
+### Buttons  
 >| Button | Description |  
 >|:--|:--|  
 >|Select|Hash生成対象ファイル選択|  
